@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLNV_23TH2519Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="id_NV" />
+    </Key>
+    <Property Name="id_NV" Type="int" Nullable="false" />
+    <Property Name="HoNV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TenNV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GioiTinh" Type="bit" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="Luong" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="AnhNV" Type="varbinary(max)" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="200" />
+    <Property Name="id_PhongBan" Type="int" />
+  </EntityType>
+  <EntityType Name="PhongBan">
+    <Key>
+      <PropertyRef Name="id_PhongBan" />
+    </Key>
+    <Property Name="id_PhongBan" Type="int" Nullable="false" />
+    <Property Name="TenPhongBan" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QuanTri">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Admin" Type="bit" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__NhanVien__id_Pho__267ABA7A">
+    <End Role="PhongBan" Type="Self.PhongBan" Multiplicity="0..1" />
+    <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhongBan">
+        <PropertyRef Name="id_PhongBan" />
+      </Principal>
+      <Dependent Role="NhanVien">
+        <PropertyRef Name="id_PhongBan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLNV_23TH2519ModelStoreContainer">
+    <EntitySet Name="NhanVien" EntityType="Self.NhanVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhongBan" EntityType="Self.PhongBan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuanTri" EntityType="Self.QuanTri" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__NhanVien__id_Pho__267ABA7A" Association="Self.FK__NhanVien__id_Pho__267ABA7A">
+      <End Role="PhongBan" EntitySet="PhongBan" />
+      <End Role="NhanVien" EntitySet="NhanVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <!--Nếu sử dụng những cách còn lại thì có thể tạo ra thêm file .cshtml tương ứng với cách đó-->
+    <!--<form name="f1" action="/SinhVien_23TH2520/UseModel" method="post">
+        <div>
+            <pre>
+
+            ID Student: <input type="text" name="Id" /> <br />
+            Full name:       <input type="text" name="Name" /> <br />
+            Mark:            <input type="text" name="Marks" />
+            </pre>
+        </div>
+
+        <div><input type="submit" value="Đăng kí" /></div>
+    </form>-->
+
+
+    <div class="col-md-8 order-md-1">
+        <h4 class="mb-3">Information of Student</h4>
+        <form class="needs-validation" action="/SinhVien_23TH2519/UseModel" method="post">
+
+            <div class="mb-3">
+                <label for="username">ID student</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">ID</span>
+                    </div>
+                    <input name="Id" type="text" class="form-control" id="username" placeholder="Write your ID right here" required>
+                    <div class="invalid-feedback" style="width: 100%;">
+                        Your username is required.
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="firstName">Name</label>
+                    <input name="Name" type="text" class="form-control" id="firstName" placeholder="Write your Full Name right here" value="" required>
+                    <div class="invalid-feedback">
+                        Valid first name is required.
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="lastName">Mark</label>
+                    <input name="Marks" type="text" class="form-control" id="lastName" placeholder="Write your Mark right here" value="" required>
+                    <div class="invalid-feedback">
+                        Valid last name is required.
+                    </div>
+                </div>
+            </div>
+
+
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Register Now</button>
+
+        </form>
+    </div>
+</main>
+

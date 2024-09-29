@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Web DotNet ThjnkWibu\\Bai3_23TH2519\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1884622-52BB-4F06-9940-06CF74B9C040}|Bai3_23TH2519\\Bai3_23TH2519.csproj|d:\\web dotnet thjnkwibu\\bai3_23th2519\\bai3_23th2519\\views\\nhanvien_23th2519\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1884622-52BB-4F06-9940-06CF74B9C040}|Bai3_23TH2519\\Bai3_23TH2519.csproj|solutionrelative:bai3_23th2519\\views\\nhanvien_23th2519\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1884622-52BB-4F06-9940-06CF74B9C040}|Bai3_23TH2519\\Bai3_23TH2519.csproj|d:\\web dotnet thjnkwibu\\bai3_23th2519\\bai3_23th2519\\views\\nhanvien_23th2519\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1884622-52BB-4F06-9940-06CF74B9C040}|Bai3_23TH2519\\Bai3_23TH2519.csproj|solutionrelative:bai3_23th2519\\views\\nhanvien_23th2519\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1884622-52BB-4F06-9940-06CF74B9C040}|Bai3_23TH2519\\Bai3_23TH2519.csproj|d:\\web dotnet thjnkwibu\\bai3_23th2519\\bai3_23th2519\\controllers\\nhanvien_23th2519controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1884622-52BB-4F06-9940-06CF74B9C040}|Bai3_23TH2519\\Bai3_23TH2519.csproj|solutionrelative:bai3_23th2519\\controllers\\nhanvien_23th2519controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Confirm.cshtml",
+              "DocumentMoniker": "D:\\Web DotNet ThjnkWibu\\Bai3_23TH2519\\Bai3_23TH2519\\Views\\NhanVien_23TH2519\\Confirm.cshtml",
+              "RelativeDocumentMoniker": "Bai3_23TH2519\\Views\\NhanVien_23TH2519\\Confirm.cshtml",
+              "ToolTip": "D:\\Web DotNet ThjnkWibu\\Bai3_23TH2519\\Bai3_23TH2519\\Views\\NhanVien_23TH2519\\Confirm.cshtml",
+              "RelativeToolTip": "Bai3_23TH2519\\Views\\NhanVien_23TH2519\\Confirm.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAcwDcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T03:26:48.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Web DotNet ThjnkWibu\\Bai3_23TH2519\\Bai3_23TH2519\\Views\\NhanVien_23TH2519\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bai3_23TH2519\\Views\\NhanVien_23TH2519\\Index.cshtml",
+              "ToolTip": "D:\\Web DotNet ThjnkWibu\\Bai3_23TH2519\\Bai3_23TH2519\\Views\\NhanVien_23TH2519\\Index.cshtml",
+              "RelativeToolTip": "Bai3_23TH2519\\Views\\NhanVien_23TH2519\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T03:17:10.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhanVien_23TH2519Controller.cs",
+              "DocumentMoniker": "D:\\Web DotNet ThjnkWibu\\Bai3_23TH2519\\Bai3_23TH2519\\Controllers\\NhanVien_23TH2519Controller.cs",
+              "RelativeDocumentMoniker": "Bai3_23TH2519\\Controllers\\NhanVien_23TH2519Controller.cs",
+              "ToolTip": "D:\\Web DotNet ThjnkWibu\\Bai3_23TH2519\\Bai3_23TH2519\\Controllers\\NhanVien_23TH2519Controller.cs",
+              "RelativeToolTip": "Bai3_23TH2519\\Controllers\\NhanVien_23TH2519Controller.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T03:12:06.135Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

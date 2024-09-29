@@ -1,0 +1,73 @@
+﻿@model Bai3_23TH2519.Models.EmpModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@using (Html.BeginForm("Index", "NhanVien_23TH2519", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <main>
+        <pre>
+        <div class="input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-lg">ID</span>
+        <input name="EmpID" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <div class="input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Name</span>
+        <input name="Name" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <div class="input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Birth Date</span>
+        <input name="BirthOfDate" type="date" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <div class="input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Email</span>
+        <input name="Email" type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <div class="input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Password</span>
+        <input name="Password" type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <div class="input-group input-group-lg">
+        <span for="Department" class="input-group-text" id="inputGroup-sizing-lg">Department</span>
+        <input name="Department" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <div class="mb-3"><input name="Avatar" class="form-control" type="file" id="formFile"></div>
+    </pre>
+        <button type="submit" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-init data-mdb-ripple-color="dark">Register</button>
+
+        <!--<div>
+            <label for="EmpID">Mã số nhân viên:</label>
+            <input type="text" name="EmpID" />
+        </div>
+        <div>
+            <label for="Name">Họ tên:</label>
+            <input type="text" name="Name" />
+        </div>
+        <div>
+            <label for="BirthOfDate">Ngày sinh:</label>
+            <input type="date" name="BirthOfDate" />
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" />
+        </div>
+        <div>
+            <label for="Password">Mật khẩu:</label>
+            <input type="password" name="Password" />
+        </div>
+        <div>
+            <label for="Department">Đơn vị:</label>
+            <input type="text" name="Department" />
+        </div>
+        <div>
+            <label for="Avatar">Ảnh đại diện:</label>
+            <input type="file" name="Avatar" />
+        </div>
+
+        <button type="submit">Đăng ký</button>-->
+    </main>
+}
+

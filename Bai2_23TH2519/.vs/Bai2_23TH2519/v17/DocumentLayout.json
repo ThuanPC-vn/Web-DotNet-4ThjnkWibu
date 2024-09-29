@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Web DotNet ThjnkWibu\\Bai2_23TH2519\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{999F57ED-D0AE-46D3-8666-1E239A31994F}|Bai2_23TH2519\\Bai2_23TH2519.csproj|d:\\web dotnet thjnkwibu\\bai2_23th2519\\bai2_23th2519\\views\\sinhvien_23th2519\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{999F57ED-D0AE-46D3-8666-1E239A31994F}|Bai2_23TH2519\\Bai2_23TH2519.csproj|solutionrelative:bai2_23th2519\\views\\sinhvien_23th2519\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999F57ED-D0AE-46D3-8666-1E239A31994F}|Bai2_23TH2519\\Bai2_23TH2519.csproj|d:\\web dotnet thjnkwibu\\bai2_23th2519\\bai2_23th2519\\views\\sinhvien_23th2519\\usemodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{999F57ED-D0AE-46D3-8666-1E239A31994F}|Bai2_23TH2519\\Bai2_23TH2519.csproj|solutionrelative:bai2_23th2519\\views\\sinhvien_23th2519\\usemodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UseModel.cshtml",
+              "DocumentMoniker": "D:\\Web DotNet ThjnkWibu\\Bai2_23TH2519\\Bai2_23TH2519\\Views\\SinhVien_23TH2519\\UseModel.cshtml",
+              "RelativeDocumentMoniker": "Bai2_23TH2519\\Views\\SinhVien_23TH2519\\UseModel.cshtml",
+              "ToolTip": "D:\\Web DotNet ThjnkWibu\\Bai2_23TH2519\\Bai2_23TH2519\\Views\\SinhVien_23TH2519\\UseModel.cshtml",
+              "RelativeToolTip": "Bai2_23TH2519\\Views\\SinhVien_23TH2519\\UseModel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T03:07:02.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Web DotNet ThjnkWibu\\Bai2_23TH2519\\Bai2_23TH2519\\Views\\SinhVien_23TH2519\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bai2_23TH2519\\Views\\SinhVien_23TH2519\\Index.cshtml",
+              "ToolTip": "D:\\Web DotNet ThjnkWibu\\Bai2_23TH2519\\Bai2_23TH2519\\Views\\SinhVien_23TH2519\\Index.cshtml",
+              "RelativeToolTip": "Bai2_23TH2519\\Views\\SinhVien_23TH2519\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T03:06:17.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

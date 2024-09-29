@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>CHANGE BANNER FUNTION</h2>
+<main>
+    <section style="background-color: #eee;">
+        <div class="container py-5">
+
+            <div class="row">
+                <div class="col">
+                    <nav aria-label="breadcrumb" class="bg-body-tertiary rounded-3 p-3 mb-4">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">Home</li>
+                            <li class="breadcrumb-item active" aria-current="page">Change Banner</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+
+            @using (Html.BeginForm("ChangeBanner", "Banner", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+
+
+                <div class="row">
+                    <div class="col-6 text-center align-items-center">
+                        <table class="table align-middle mb-0 bg-white">
+                            <thead class="bg-black">
+                                <tr>
+                                    <th>Actions</th>
+                                    <th>Button</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+
+
+
+                                    <td>Upload New Image</td>
+                                    <td>
+                                        <button type="button" class="btn btn-dark" data-mdb-ripple-init onclick="document.getElementById('file-input').click();">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-upload" viewBox="0 0 16 16">
+                                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+                                                <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z" />
+                                            </svg>
+                                        </button>
+                                        <input type="file" id="file-input" class="file_input" required name="banner" style="display: none;">
+                                    </td>
+                                </tr>
+
+                                <tr>
+
+                                    <td>Apply New Image</td>
+                                    <td>
+                                        <button type="submit" class="btn btn-success" data-mdb-ripple-init>Apply</button>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            }
+
+        </div>
+    </section>
+
+</main>

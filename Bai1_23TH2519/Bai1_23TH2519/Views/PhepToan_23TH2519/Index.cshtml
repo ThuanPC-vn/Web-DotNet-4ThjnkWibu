@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main aria-labelledby="title">
+
+    <h4>THỰC HIỆN PHÉP TOÁN CƠ BẢN</h4>
+    <form name="f1" action="/PhepToan_23TH2519/Index" method="post">
+        <div>
+            Nhập a: <input type="text" name="a" />
+            <br>
+            Nhập b: <input type="text" name="b" />
+        </div>
+        <div>
+            <input type="radio" checked name="pt" value="+" />Cộng  
+            <input type="radio" name="pt" value="-" />Trừ  
+            <input type="radio" name="pt" value="*" />Nhân 
+            <input type="radio" name="pt" value="/" />Chia 
+        </div>
+        <div><input type="submit" value="Tính toán" /></div>
+        <div>Kết quả: <input type="text" name="kq" value=@ViewBag.KQ /></div>
+    </form>
+
+</main>
+

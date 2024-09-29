@@ -1,0 +1,109 @@
+﻿@model List<Bai6_23TH2519.Models.NhanVien>
+@{
+    ViewBag.Title = "TimKiem";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string gtinh = "";
+    int i = 0;
+}
+
+Nhập mã nhân viên cần tìm
+@using (Html.BeginForm())
+{
+    <input type="text" name="maNV" />
+    <input type="submit" value="Tìm kiếm" />
+    <h3>DANH SÁCH NHÂN VIÊN</h3>
+
+    <p>
+        @Html.ActionLink("Thêm mới", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Mã NV
+            </th>
+            <th>
+                Họ nhân viên
+            </th>
+            <th>
+                Tên nhân viên
+            </th>
+            <th>
+                Giới tính
+            </th>
+            <th>
+                Ngày sinh
+            </th>
+            <th>
+                Lương
+            </th>
+            <th>
+                Ảnh NV
+            </th>
+            <th>
+                Địa chỉ
+            </th>
+            <th>
+                Phòng ban
+            </th>
+            <th>Chức năng</th>
+        </tr>
+
+        @if (@ViewBag.Message == null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.id_NV)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HoNV)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenNV)
+                    </td>
+                    <td>
+                        @{if (item.GioiTinh == true)
+                            { gtinh = "Nam"; }
+                            else
+                            { gtinh = "Nữ"; }
+                        }
+                        @gtinh
+
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NgaySinh)
+
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Luong)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AnhNV)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DiaChi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.id_PhongBan)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Sửa", "Edit", new { id = item.id_NV }) |
+                        @Html.ActionLink("Xem chi tiết", "Details", new { id = item.id_NV }) |
+                        @Html.ActionLink("Xóa", "Delete", new { id = item.id_NV })
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <p>@ViewBag.Message</p>
+            </tr>
+        }
+
+
+    </table>
+
+}
+
